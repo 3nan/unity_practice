@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200347ac6c2264cb4becb6ac24e14174, type: 3}
+  m_Name: LobiSettings
+  m_EditorClassIdentifier: 
+  clientId: f92bd261db0bf4a1cf277fcee37d26d07d1e06ec
+  baseName: kayac
+  chatEnabled: 1
+  recEnabled: 1
+  rankingEnabled: 1
+  iosSupportEnabled: 1
+  androidSupportEnabled: 0
+  testButtonsEnabled: 0

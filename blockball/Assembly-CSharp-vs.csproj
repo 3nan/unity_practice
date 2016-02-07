@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B9ADB769-B3C3-812E-7199-2A0CAD59FE92}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Block.cs" />
+     <Compile Include="Assets\LobiSDK\Scenes\LobiCoreScene\LobiCoreScene.cs" />
+     <Compile Include="Assets\LobiSDK\Scenes\LobiRankingScene\LobiRankingScene.cs" />
+     <Compile Include="Assets\LobiSDK\Scenes\LobiRecScene\Cube.cs" />
+     <Compile Include="Assets\LobiSDK\Scenes\LobiRecScene\LobiRecScene.cs" />
+     <Compile Include="Assets\LobiSDK\Scenes\MainScene\MainScene.cs" />
+     <Compile Include="Assets\LobiSDK\Scripts\LobiAPIStatusCode.cs" />
+     <Compile Include="Assets\LobiSDK\Scripts\LobiCoreAPIBridge.cs" />
+     <Compile Include="Assets\LobiSDK\Scripts\LobiCoreBridge.cs" />
+     <Compile Include="Assets\LobiSDK\Scripts\LobiEventReceiver.cs" />
+     <Compile Include="Assets\LobiSDK\Scripts\LobiRankingAPIBridge.cs" />
+     <Compile Include="Assets\LobiSDK\Scripts\LobiRankingBridge.cs" />
+     <Compile Include="Assets\LobiSDK\Scripts\LobiRec.cs" />
+     <Compile Include="Assets\LobiSDK\Scripts\LobiRecAPIBridge.cs" />
+     <Compile Include="Assets\LobiSDK\Scripts\LobiRecBridge.cs" />
+     <Compile Include="Assets\LobiSDK\Scripts\LobiRecCamera.cs" />
+     <Compile Include="Assets\LobiSDK\Scripts\LobiTest.cs" />
+     <Compile Include="Assets\Racket.cs" />
+     <Compile Include="Assets\Scene\Rankingsample.cs" />
+     <Compile Include="Assets\Script\Lobi\Sendranking.cs" />
+     <Compile Include="Assets\Script\Manager\SingletonMonoBehaivour.cs" />
+     <Compile Include="Assets\ball.cs" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobi_chat_new_popup_fade_in.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_reply_layout_left.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_profile_profile_fragment.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_action_bar_button.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_white_arrow.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_loading_footer.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values\lobi_arrays.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_invitation_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_hint_contacts_twitter.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobi_icon_fade_in.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_input_area_mask.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_base_transparent_gray_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiRanking\res\values-ja\lobi_strings.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_prize_groups_header.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_button_l_green_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobisdk_terms_of_use_content.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_image_loader_icon.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_friend_status_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_button_s_green_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\res\layout\lobi_rec_activity_sns_login.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values\lobisdk_styles.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_icn_actionbar_accept.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\res\values-ja\lobi_strings.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobi_slide_out_left.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_lobi_banner.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_list_read_mark.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_group_create_new_group_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_ico_accept_enabled_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_button_notice_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values\lobi_integers.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_chat_more_options_menu_background_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_follow_list_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_one_line.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_list_left_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobisdk_badge_unread_in.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_button_l_white_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_profile_textbox_edit_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobisdk_badge_in.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_ico_notice_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_line_gray_horizontal_repeat.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_action_bar_content_close.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\color\lobi_popup_menu_text_color.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_chat_member_location_status.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_apps_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_chat_edit_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_checkbox.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_group_header_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_close_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_menu_drawer_footer.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_ico_trash_enabled_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_action_bar_content_select_account.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_two_line.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_chat_reply_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_stamp_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobi_icon_fade_out.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_profile_cover.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_hint_contacts_service.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_line_vertical_trnsparent.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\res\values-ko\lobi_strings.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_button_trash_enabled.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_options_popup_menu.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_custom_dialog_list_row_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_bg_light_repeat.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_profile_profile_cover_content.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobisdk_badge_unread_out.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobi_chat_new_popup_message_fade_out.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_megamenu_list_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_hint_public_group.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_list_bottom_options.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_horizontal_element_scroller_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_group_info_settings_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values-ko\lobi_strings.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_image_loader_big.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_ico_megamenu_bottom_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiRanking\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_list_system_message.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_community_list_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_group_user_contact_list_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_button_upload_enabled_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiRanking\res\layout\lobi_ranking_list_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_button_l_orange_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values\lobi_ids.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\res\layout\lobi_rec_activity_play.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_custom_dialog_button_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiRanking\res\values\lobi_strings.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_friend_status_mark_view.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_horizontal_scroller_element_img_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_framed_image_loader.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_ico_accept_enabled.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_button_megamenu_bottom_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_group_info_settings_change_leader_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_ico_add_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_root_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_profile_edit_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_center_twoline_with_icon.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_chat_megamenu_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_lobi_banner_gradient.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_icn_actionbar_close.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_ico_back_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_image_loader_64dp.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_rectangle_white.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_authorized_root_header.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_pick_preview_horizontall_scroller_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_base_button_white_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_default_list_row_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_custom_dialog_content_text.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_group_info_leader_change_list_header.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_button_menu_selector_01.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_group_public_list_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_action_bar_content_title_only.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_common_gray_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_center_oneline.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_option_button.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_menu_drawer.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_toggle.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_button_alert_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_checkbox_small.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_image_view.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\res\layout\lobi_rec_activity_video_loading.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_button_gray_text_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\res\layout-land\lobi_rec_activity_post_video.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobisdk_badge_out.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\res\layout\lobi_rec_popup_menu.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_menu_drawer_list_row_background_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_setting_dialog_row.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\res\layout\lobi_rec_activity_faq.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_group_wrapper.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_action_bar_account_thumbnail.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_framed_icon_menu.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_center_threeline.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_pull_down_over_scroll_component.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_chat_megamenu_disable_image_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiRanking\res\layout\lobi_ranking_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_friend_not_found_view.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_center_oneline_small.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_menu_drawer_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_button_menu_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_members.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_icon_back_selector_01.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_button_camera_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_custom_dialog_content_online_edittext.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_custom_dialog_button_text_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_light_box.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_shape_oval_icon_background.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_follow_button.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values-zh-rTW\lobi_strings.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_hint_stamps.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_ico_accept_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_megamenu_popup.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_fixed_tab_element.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_lobi_account_area_background.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_button_groupnew_selector_01.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobi_chat_new_popup_fade_out.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_notification_background_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_hint_account_switch_here.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_chat_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_icn_megamenu_map_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_list_right_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\res\layout\lobi_video_list_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values\lobi_colors.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_custom_dialog_content_edittext.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_stamp_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_button_notice_news_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobi_slide_in_left.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_action_bar.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_one_line_small.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobi_chat_megamenu_show.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_setting_row_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_group_contact_list_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values\lobi_strings.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_edit_picture.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_setting_row_white_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_notification_background_yellow_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_framed_icon_s.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_chat_stamp_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values\lobi_dimens.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_menu_drawer_header.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_icn_actionbar_notice.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\res\values-zh-rTW\lobi_strings.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_icn_actionbar_notice_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_checkbox_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobi_slide_out_right.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_custom_progress_dialog.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_search_box.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobi_chat_megamenu_hide.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_hint_contacts_facebook.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values-ja\lobi_plurals.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_textbox_edit_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_menu_drawer_section_header.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\res\values\lobi_strings.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_community_list_item_category.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values-zh-rTW\lobi_arrays.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_ico_notice_news_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_base_list_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiRanking\res\values-zh-rTW\lobi_strings.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_reply_layout_right.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_rectangle_white_line.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_custom_dialog.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_group_list_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_ico_alert_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_hint_community_button.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_member_list_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_action_bar_content_backable.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_base_list_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_hint_private_group.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values-ja\lobi_arrays.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_new_popup.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_divider_view_layout.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_reply_list_left_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values-ja\lobi_strings.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_section_view_layout.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_ad_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiRanking\res\values-ko\lobi_strings.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_follow_list_category_header.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_lobi_banner_text_only.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_action_bar_separator.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_contact_list_header.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_friend_status_off.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_profile_cover_gradient.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values\lobisdk_ids.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_chat_megamenu_title_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_list_header_member_icon.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values\lobi_styles.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_group_user_accounts_list_row_background_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_custom_dialog_footer_with_button.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_hint_contacts_mail.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_group_list_margin_view.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobisdk_activity_pending_transition_out.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_action_bar_content_menu.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobi_slide_in_right.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values\lobi_plurals.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_horizontal_element_scroller.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_arrow.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_group_info_members_layout.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_button_s_orange_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_framed_icon_m.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobi_chat_new_popup_message_fade_in.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_chat_refer_container.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_button_upload_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_background.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_ico_close_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_multiple_selection.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_edit_component_layout.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\anim\lobisdk_activity_pending_transition_in.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_ico_trash_enabled.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values\lobi_attrs.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_loading_footer.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_rectangle_white_line_on.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_custom_large_button_layout.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_action_bar_button_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_center_twoline.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_line_drawable.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_button_white_text_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_refer_layout.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_custom_dialog_content_text_and_checkbox.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\res\layout\lobi_rec_activity_video_player.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_notifications_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\values-ko\lobi_arrays.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_custom_dialog_content_image.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_profile_profile_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_button_s_white_line_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobisdk_menu_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_group_info_activity.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_notification_list_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiRec\res\layout\lobi_rec_activity_post_video.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_list_row_content_framed_icon_l.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_textbox_search_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_button_s_white_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_lobi_account_area_background_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_group_wrapper_content_layout.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_checkbox_small_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_list_header_layout.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\drawable\lobi_button_s_g_white_selector.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_friend_filter_not_hit_view.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_chat_group_info_leader_change_item.xml" />
+     <None Include="Assets\Plugins\Android\LobiCore\res\layout\lobi_group_contact_list_item.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{3D57279F-343F-3EF9-912A-A75FCBD50399}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

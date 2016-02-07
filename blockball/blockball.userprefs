@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Manager/SingletonMonoBehaivour.cs">
+    <Files>
+      <File FileName="Assets/Racket.cs" Line="1" Column="1" />
+      <File FileName="Assets/Block.cs" Line="1" Column="1" />
+      <File FileName="Assets/Editor/Lobi/LobiPostProcessor.cs" Line="17" Column="15" />
+      <File FileName="Assets/Plugins/Android/LobiCore/res/anim/lobi_chat_megamenu_hide.xml" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/Android/LobiCore/res/anim/lobi_chat_new_popup_fade_out.xml" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/Android/LobiCore/res/anim/lobi_chat_new_popup_fade_in.xml" Line="1" Column="1" />
+      <File FileName="Assets/LobiSDK/Scripts/LobiRankingBridge.cs" Line="1" Column="1" />
+      <File FileName="Assets/ball.cs" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/Android/LobiRanking/res/layout/lobi_ranking_activity.xml" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/Android/LobiRanking/res/values/lobi_strings.xml" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/Android/LobiRec/res/layout-land/lobi_rec_activity_post_video.xml" Line="1" Column="1" />
+      <File FileName="Assets/Scene/Rankingsample.cs" Line="18" Column="3" />
+      <File FileName="Assets/Script/Lobi/Sendranking.cs" Line="18" Column="31" />
+      <File FileName="SingletonMonoBehaviour.cs" Line="4" Column="19" />
+      <File FileName="Assets/Editor/XCodeEditor/PBXBuildFile.cs" Line="6" Column="2" />
+      <File FileName="Assets/Script/Manager/SingletonMonoBehaivour.cs" Line="11" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
